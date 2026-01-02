@@ -2,7 +2,8 @@
 
 def mymap = [
     project : "roboshop",
-    component: "shipping"
+    component: "shipping",
+    acc_id: '406682759639'
 ]
 
 if( ! env.BRANCH_NAME.equalsIgnoreCase('main') ){ // if not equals to main
